@@ -23,7 +23,7 @@ from anki_vector.util import degrees, Angle
 from imageai.Prediction.Custom import CustomImagePrediction
 from PIL import Image, ImageStat
 
-robot = anki_vector.Robot('00703d7c')
+robot = anki_vector.Robot('serial')
 robot.connect()
 robot.behavior.set_lift_height(1)
 robot.behavior.set_head_angle(degrees(2.0))
